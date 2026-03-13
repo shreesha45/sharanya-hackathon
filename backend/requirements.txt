@@ -1,0 +1,22 @@
+# AI Meeting-to-Action System — Python dependencies
+# Install with:  pip install -r requirements.txt
+
+# Web framework
+fastapi>=0.111.0
+uvicorn[standard]>=0.29.0
+
+# HTTP client (sync, used in service calls)
+httpx>=0.27.0
+
+# Data validation
+pydantic>=2.7.0
+
+# PDF generation
+reportlab>=4.2.0
+
+# Environment variable loading (optional — python-dotenv)
+python-dotenv>=1.0.0
+
+# WebSocket support is bundled with fastapi/uvicorn[standard]
+# Audio / multipart form handling
+python-multipart>=0.0.9
